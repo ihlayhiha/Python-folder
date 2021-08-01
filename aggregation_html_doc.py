@@ -65,7 +65,7 @@ class HTMLDoc(object):
 
 if __name__ == "__main__":
     new_body = Body()
-    new_body.add_tag('h1', 'Aggregation Document')
+    new_body.add_tag('h1', 'Aggregation title at the top of the tab')
     new_body.add_tag('p', "Unlike <strong>composition</strong>, aggregation uses existing instances "
                         "of objects to build other object.")
     new_body.add_tag('p', "The composed object doesn't actually own the object that it is composed of "
