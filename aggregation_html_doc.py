@@ -72,7 +72,7 @@ if __name__ == "__main__":
                         "- if it's destroyed, those objects continue to exist.")
 
     new_doc_type = DocType()
-    new_header = Head('Aggregation Document')
+    new_header = Head('Aggregation Document displayed on the TAB')
     my_page = HTMLDoc(new_doc_type, new_header, new_body)
 
     with open("test3.html", 'w') as test_doc:
